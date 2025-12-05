@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="d3eaef0d-bdf9-4948-b007-145c706b3338" Parent="WanJie_DrugBase">
+      <ThingName>Asura Soul</ThingName>
+      <Beauty>25</Beauty>
+      <Rate>12</Rate>
+      <Desc>The soul fragment of an Asura. Consume it to gain the battle experience and might of an Asura.</Desc>
+      <TexPath>res/Sprs/object/object_xianshixienian01</TexPath>
+      <OtherWorld>1</OtherWorld>
+      <Item Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="bcf0f6fc-73db-4fe2-a7ab-279e78f1e6b3" count="1" />
+          </CostItems>
+        </BeMade>
+        <Food>
+          <PracticeNutrition>1000</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Fesistance>0</Fesistance>
+          <Ling>0</Ling>
+          <Modifier>2bc0296a-8456-469e-bb41-744381e83c83</Modifier>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>WorkPlace</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="60e30b58-2f64-4735-8388-b6f6121b2624" Parent="WanJie_DrugBase">
+      <ThingName>Immortal Qi</ThingName>
+      <Beauty>25</Beauty>
+      <Rate>12</Rate>
+      <Desc>A condensed strand of qi from a true Immortal from the realms above. Consuming it alters a mortal's body, changing one's destiny.</Desc>
+      <TexPath>res/Sprs/object/object_tianjiezhixi</TexPath>
+      <OtherWorld>1</OtherWorld>
+      <Item Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="bcf0f6fc-73db-4fe2-a7ab-279e78f1e6b3" count="1" />
+          </CostItems>
+        </BeMade>
+        <Food>
+          <PracticeNutrition>1000</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Fesistance>0</Fesistance>
+          <Ling>0</Ling>
+          <Modifier>8d4094b1-4919-491d-9231-a167546e3702</Modifier>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>WorkPlace</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

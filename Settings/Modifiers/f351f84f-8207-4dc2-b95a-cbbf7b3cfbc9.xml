@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="f351f84f-8207-4dc2-b95a-cbbf7b3cfbc9">
+      <DisplayName>Invincible</DisplayName>
+      <Desc>Invincible</Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>600</Duration>
+      <BaseFive>0,0,0,0,0</BaseFive>
+      <OtherWorld>1</OtherWorld>
+      <Sync>1</Sync>
+      <Display>1</Display>
+      <Properties>
+        <li Name="NpcLingMaxValue" AddP="0" AddV="0" BAddP="0" BAddV="100000000" Type="1" />
+        <li Name="LingAbsorbSpeed" AddP="10" AddV="0" BAddP="10" BAddV="10000" Type="1" />
+      </Properties>
+    </Modifier>
+  </List>
+</ModifierDefs>

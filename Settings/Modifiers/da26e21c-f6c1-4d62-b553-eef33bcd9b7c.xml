@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="da26e21c-f6c1-4d62-b553-eef33bcd9b7c">
+      <DisplayName>Vision</DisplayName>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      <BaseFive>0,0,0,0,0</BaseFive>
+      <OtherWorld>1</OtherWorld>
+      <Sync>1</Sync>
+      <Display>0</Display>
+      <Properties>
+        <li Name="VisionRadius" AddP="1" AddV="0" BAddP="1" BAddV="0" Type="4" />
+      </Properties>
+    </Modifier>
+  </List>
+</ModifierDefs>

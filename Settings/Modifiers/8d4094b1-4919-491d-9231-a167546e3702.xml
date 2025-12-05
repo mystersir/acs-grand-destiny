@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="8d4094b1-4919-491d-9231-a167546e3702">
+      <DisplayName>仙神体</DisplayName>
+      <Desc>Immortal Spirit Body</Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      <BaseFive>100,100,100,100,100</BaseFive>
+      <OtherWorld>1</OtherWorld>
+      <Sync>1</Sync>
+      <Display>0</Display>
+      <Skills>
+        <li Name="Qi" Level="0" LevelOver="5" Type="2" />
+      </Skills>
+      <Properties>
+        <li Name="NpcLingMaxValue" AddP="0" AddV="0" BAddP="0" BAddV="1000" Type="3" />
+        <li Name="MindStateBaseValue" AddP="0" AddV="0" BAddP="0" BAddV="100" Type="3" />
+        <li Name="MaxAge" AddP="0" AddV="0" BAddP="0" BAddV="10000" Type="3" />
+        <li Name="AgeCostSpeed" AddP="0" AddV="0" BAddP="-0.99" BAddV="0" Type="4" />
+        <li Name="PotentialOfBasepracticeAddValue" AddP="0" AddV="0" BAddP="0" BAddV="1" Type="3" />
+        <li Name="MaxAccumulativeLingAddV" BAddV="10000"/>
+        <li Name="VisionRadius" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0" AddV="0" BAddP="10" BAddV="0" Type="4" />
+        <li Name="PracticeRateAddPFromDan" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="ComfyTMin" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="ComfyTMax" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="3" />
+        <li Name="ToleranceTMin" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="ToleranceTMax" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="RecoveryPower" AddP="0" AddV="0" BAddP="2" BAddV="0" Type="4" />
+        <li Name="PracticeFoodRecoveryConstant" AddP="0" AddV="0" BAddP="2" BAddV="0" Type="4" />
+        <li Name="NutritionToJingYuanK" AddP="0" AddV="0" BAddP="2" BAddV="0" Type="4" />
+        <li Name="IntelligenceSkillEXPConstant" AddP="0" AddV="0" BAddP="10" BAddV="0" Type="4" />
+        <li Name="NpcFight_ShieldConversionRate" AddP="0" AddV="0" BAddP="0.5" BAddV="0" Type="4" />
+        <li Name="NpcFight_ShieldConversionRateAddP" AddP="0" AddV="0" BAddP="0.5" BAddV="0" Type="4" />
+      </Properties>
+    </Modifier>
+  </List>
+</ModifierDefs>

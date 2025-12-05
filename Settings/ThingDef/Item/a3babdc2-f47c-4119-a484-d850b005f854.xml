@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="a3babdc2-f47c-4119-a484-d850b005f854" Parent="WanJie_DrugBase">
+      <ThingName>Primordial Origin</ThingName>
+      <Beauty>25</Beauty>
+      <Rate>12</Rate>
+      <Desc>Crystal containing the purest essence of Heaven and Earth.</Desc>
+      <TexPath>res/Sprs/object/object_benyuanwu01</TexPath>
+      <OtherWorld>1</OtherWorld>
+      <Item Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="bcf0f6fc-73db-4fe2-a7ab-279e78f1e6b3" count="1" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Ling>0</Ling>
+          <Modifier>9019f8d8-a9a5-4338-8a20-a6dc470460ef</Modifier>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>WorkPlace</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="9bdb7527-ef60-4d01-a1c0-8a9a4515c27b" Parent="WanJie_DrugBase">
+      <ThingName>Wisp of Godking's Soul</ThingName>
+      <Beauty>25</Beauty>
+      <Rate>12</Rate>
+      <Desc>A soul wisp of an invincible Immortal Godking from the realms above. Consuming it allows the Godking to temporarily take possession. While possessed, the mortal is almost invincible.</Desc>
+      <TexPath>res/Sprs/object/object_xianshishennian01</TexPath>
+      <OtherWorld>1</OtherWorld>
+      <Item Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="bcf0f6fc-73db-4fe2-a7ab-279e78f1e6b3" count="1" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Ling>0</Ling>
+          <Modifier>f351f84f-8207-4dc2-b95a-cbbf7b3cfbc9</Modifier>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>WorkPlace</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="2bc0296a-8456-469e-bb41-744381e83c83">
+      <DisplayName>阿修罗魂</DisplayName>
+      <Desc>Asura Spirit</Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      <BaseFive>0,0,0,0,0</BaseFive>
+      <OtherWorld>1</OtherWorld>
+      <Sync>1</Sync>
+      <Display>0</Display>
+      <Skills>
+        <li Name="Qi" Level="0" LevelOver="5" Type="2" />
+        <li Name="Fabao" Level="0" LevelOver="5" Type="2" />
+        <li Name="FightSkill" Level="0" LevelOver="5" Type="2" />
+        <li Name="Barrier" Level="0" LevelOver="5" Type="2" />
+      </Skills>
+      <Properties>
+        <li Name="NpcFight_FabaoNum" AddP="0" AddV="0" BAddP="0" BAddV="3" Type="3" />
+        <li Name="NpcFight_FabaoLingRecoverK" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoPowerAddP" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoLingRecoverAddP" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoMaxLingAddP" AddP="0" AddV="0" BAddP="-1" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoRepelDistanceAddV" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoFlySpeedAddP" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoRepelResistanceAddV" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoTrailingLengthAddP" AddP="0" AddV="0" BAddP="0.5" BAddV="0" Type="4" />
+        <li Name="NpcFight_FightSkillSoul" AddP="0" AddV="0" BAddP="0" BAddV="3" Type="3" />
+        <li Name="NpcFight_SpellPowerAddP" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="NpcFight_SpellLingCostAddP" AddP="0" AddV="0" BAddP="-0.5" BAddV="0" Type="4" />
+        <li Name="NpcFight_ShieldConversionRate" AddP="0" AddV="0" BAddP="0.5" BAddV="0" Type="4" />
+        <li Name="NpcFight_ShieldConversionRateAddP" AddP="0" AddV="0" BAddP="0.5" BAddV="0" Type="4" />
+        <li Name="MaxAge" AddP="0" AddV="0" BAddP="0" BAddV="1000" Type="3" />
+      </Properties>
+    </Modifier>
+  </List>
+</ModifierDefs>
