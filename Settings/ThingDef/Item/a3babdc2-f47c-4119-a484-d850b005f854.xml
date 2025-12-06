@@ -7,7 +7,6 @@
       <Rate>12</Rate>
       <Desc>Crystal containing the purest essence of Heaven and Earth.</Desc>
       <TexPath>res/Sprs/object/object_benyuanwu01</TexPath>
-      <OtherWorld>1</OtherWorld>
       <Item Kind="Consumable">
         <BeMade>
           <CostStuffCount>1</CostStuffCount>

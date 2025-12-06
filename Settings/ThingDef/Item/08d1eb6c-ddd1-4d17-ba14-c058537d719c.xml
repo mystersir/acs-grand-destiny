@@ -8,7 +8,6 @@
       <Desc>Mystic Eyes of an Immortal from the realms above. Consume it to have penetrating vision.</Desc>
       <TexPath>res/Sprs/object/object_yinyangjiejing01</TexPath>
       <Color>ffcc00</Color>
-      <OtherWorld>1</OtherWorld>
       <Item Kind="Consumable">
         <BeMade>
           <CostStuffCount>1</CostStuffCount>

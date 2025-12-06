@@ -7,7 +7,6 @@
       <Rate>12</Rate>
       <Desc>A condensed strand of qi from a true Immortal from the realms above. Consuming it alters a mortal's body, changing one's destiny.</Desc>
       <TexPath>res/Sprs/object/object_tianjiezhixi</TexPath>
-      <OtherWorld>1</OtherWorld>
       <Item Kind="Consumable">
         <BeMade>
           <CostStuffCount>1</CostStuffCount>

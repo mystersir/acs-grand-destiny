@@ -6,7 +6,6 @@
       <MaxStack>10000</MaxStack>
       <Duration>-1</Duration>
       <BaseFive>0,0,0,0,0</BaseFive>
-      <OtherWorld>1</OtherWorld>
       <Sync>1</Sync>
       <Display>0</Display>
       <Properties>
