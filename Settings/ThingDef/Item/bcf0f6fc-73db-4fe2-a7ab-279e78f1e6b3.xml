@@ -22,7 +22,7 @@
         </Food>
         <Elixir>
           <ZhuJi>0</ZhuJi>
-          <Ling>50000000</Ling>
+          <Ling>9999999</Ling>
           <DiscipleOnly>1</DiscipleOnly>
         </Elixir>
       </Item>
